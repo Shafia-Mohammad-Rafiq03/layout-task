@@ -1,0 +1,225 @@
+* {
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #4F91CD;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+#hero {
+    background-image: url("https://github.com/techkaro-circle/tk-class02-task/blob/master/mockup/Main%20Page%20Image.PNG?raw=true");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#color {
+    color: #ffffff;
+    padding-top: 150px;
+}
+
+#color>h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+#li>first-child {
+    border-right: none;
+}
+
+.font h1 {
+    font-size: 50px;
+    font-style: normal;
+}
+
+.size {
+    font-size: 15px;
+    color: #5aa5e8;
+}
+
+.nav>ul>li {
+    list-style: none;
+    display: inline;
+    padding: 10px 5px 10px 0px;
+    padding-right: 10px;
+}
+
+.nav>ul>li>a {
+    text-decoration: none;
+    border-left: 1px solid white;
+    padding: 5px;
+    color: white;
+}
+
+.nav>ul {
+    text-align: center;
+    text-align: left;
+}
+
+#first-child>a {
+    border-left: none;
+}
+
+#second-child>a {
+    background-color: #002342;
+}
+
+.button>i>input {
+    background-color: #4F91CD;
+    color: black;
+    padding: 8px;
+    width: 20%;
+    border-radius: 5px;
+}
+
+#button {
+    background-color: #4F91CD;
+    padding: 8px;
+    width: 8%;
+    border-radius: 5px;
+}
+
+.main>ul>li>a {
+    text-decoration: none;
+    border-left: .2px solid #002342;
+    color: white;
+    padding: 15px 8px 15px 50px;
+    padding-right: 60px;
+}
+
+.main>ul {
+    text-align: center;
+}
+
+.main>ul>li {
+    list-style: none;
+    display: inline;
+    margin-right: -0.4%;
+}
+
+.main>ul>li:first-child {
+    border: none;
+}
+
+.main {
+    background-color: #043867;
+    padding: 15px 5px 15px 0px;
+}
+
+.item {
+    color: white;
+    width: 23%;
+}
+
+.A {
+    background-color: #7AA120;
+    position: static;
+    width: 100%;
+    color: white;
+    font-size: x-large;
+}
+
+.B,
+.C,
+.D {
+    background-color: #E7ECF0;
+    position: static;
+    display: block;
+    margin: 2%;
+    padding: 5%;
+}
+
+.main-paragraph {
+    color: #6f7984;
+}
+
+.E {
+    background-color: #620E6E;
+    position: static;
+    display: block;
+    margin: 2%;
+    padding: 5%;
+}
+
+.F {
+    background-color: #4385C1;
+    position: static;
+    display: block;
+    margin: 2%;
+    padding: 5%;
+    text-align: center;
+}
+
+.G,
+.H {
+    position: static;
+    margin: 2%;
+    width: 1.5%;
+    padding: 2%;
+    border: solid 1px;
+    font-size: x-small;
+    border-color: gainsboro;
+    color: #7AA120;
+    display: flex;
+}
+
+div>ul>li {
+    list-style: none;
+    color: #818EA0;
+}
+
+.main-section {
+    margin-bottom: 2px;
+    display: flex;
+}
+
+.main-section2 {
+    margin-bottom: 2px;
+    display: flex;
+}
+
+.heading {
+    color: #4690CD;
+}
+
+.center {
+    background-color: white;
+    color: #89929e;
+}
+
+.button1 {
+    border-color: #4385C1;
+    padding: 12px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    width: 15%;
+}
+
+.container {
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    background-color: #34383C;
+    color: white;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.h2 {
+    padding-left: 5%;
+}
+
+.button1>a {
+    text-decoration: none;
+    color: #4385C1;
+}
