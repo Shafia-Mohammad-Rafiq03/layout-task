@@ -28,8 +28,6 @@ h3 {
     margin-top: 20%;
 }
 
-#color {}
-
 #color h3 {
     margin: 0;
 }
@@ -147,18 +145,20 @@ h3 {
 .E {
     background-color: #620E6E;
     position: static;
-    display: block;
-    margin: 2%;
-    padding: 5%;
+    display: inline;
+    margin: 1.8%;
+    padding: 3.4%;
+    padding-bottom: 8%;
 }
 
 .F {
     background-color: #4385C1;
     position: static;
-    display: block;
-    margin: 2%;
-    padding: 5%;
+    display: inline;
+    margin: 1.8%;
     text-align: center;
+    padding: 3.4%;
+    padding-bottom: 8%;
 }
 
 .G,
@@ -217,9 +217,28 @@ div>ul>li {
     width: 100%;
     background-color: #34383C;
     color: white;
-    padding-left: 5%;
+    text-align: center;
+    display: block;
+    display: flex;
+}
+
+.footer1>ul>li {
+    padding: 10px;
+}
+
+.footer2>ul>li {
+    padding: 10px;
+}
+
+.footer3>ul>li {
+    padding: 10px;
+}
+
+.footer4>ul>li {
+    padding: 10px;
 }
 
 .h2 {
     padding-left: 6%;
+    text-align: center;
 }
