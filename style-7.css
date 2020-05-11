@@ -14,27 +14,31 @@
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 200px;
 }
 
-#color {
-    color: #ffffff;
-    padding-top: 150px;
-}
-
-#color>h1 {
-    margin: 0;
-    text-align: center;
-    font-size: 50px;
-    padding: 50px;
+h3 {
     border-top: 2px solid #ffffff;
     border-bottom: 2px solid #ffffff;
+    font-size: 50px;
+    padding: 50px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 3px 0px 4px black;
+    margin-top: 20%;
+}
+
+#color {}
+
+#color h3 {
+    margin: 0;
 }
 
 #li>first-child {
     border-right: none;
 }
 
-.font h1 {
+.font h3 {
     font-size: 50px;
     font-style: normal;
 }
@@ -201,6 +205,8 @@ div>ul>li {
     background-color: white;
     border-radius: 5px;
     width: 15%;
+    color: #4385C1;
+    cursor: pointer;
 }
 
 .container {
@@ -211,15 +217,9 @@ div>ul>li {
     width: 100%;
     background-color: #34383C;
     color: white;
-    text-align: left;
     padding-left: 5%;
 }
 
 .h2 {
-    padding-left: 5%;
-}
-
-.button1>a {
-    text-decoration: none;
-    color: #4385C1;
+    padding-left: 6%;
 }
