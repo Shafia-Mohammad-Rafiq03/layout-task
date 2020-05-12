@@ -73,26 +73,19 @@ h3 {
     background-color: #002342;
 }
 
-.button>i>input {
-    background-color: #4F91CD;
-    color: black;
-    padding: 8px;
-    width: 20%;
-    border-radius: 5px;
-}
-
 #button {
     background-color: #4F91CD;
     padding: 8px;
     width: 8%;
     border-radius: 5px;
+    display: inline-block;
 }
 
-.main>ul>li>a {
+nav>.main>ul>li>a {
     text-decoration: none;
     border-left: .2px solid #002342;
     color: white;
-    padding: 15px 8px 15px 50px;
+    padding: 20px 8px 20px 50px;
     padding-right: 60px;
 }
 
@@ -112,7 +105,7 @@ h3 {
 
 .main {
     background-color: #043867;
-    padding: 15px 5px 15px 0px;
+    padding: 20px 5px 20px 0px;
 }
 
 .item {
